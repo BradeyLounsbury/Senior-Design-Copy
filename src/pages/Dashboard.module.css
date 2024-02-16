@@ -1,0 +1,65 @@
+.dashboard-wrap {
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.thumbnail-content {
+    height: 300px;
+    background-image: url("../assets/navmap-large.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.dashboard-tile {
+    height: 70px;
+    background-color: #EBF3F3;
+    color: #074F57;
+    margin-top: 20px;
+    display: flex;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dashboard-tile:hover {
+    cursor: pointer;
+}
+
+.dashboard-tile-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    font-size: 32px;
+}
+
+.dashboard-tile-text {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.shadow-top {
+    box-shadow: 0px -6px 4px rgba(0, 0, 0, 0.25);
+}
+
+.no-top-margin {
+    margin-top: 0;
+}
+
+.sub-header-item {
+    background-color: #CFDFE2;
+    color:#074F57;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    border-bottom: solid;
+    border-width: 2px;
+}
+
+.sub-list-item-icon {
+    margin-left: 52px;
+    margin-right: 10px;
+}

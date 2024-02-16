@@ -1,0 +1,37 @@
+.sign-up-tile {
+    color: #074F57;
+    background-color: #D0E4E5;
+    height: max-content;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.find-out-more-tile {
+    color: #074F57;
+    background-color: #D0DBE5;
+    height: max-content;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.get-started-tile {
+    background-image: url('../assets/GetStarted.png');
+    background-position: center;
+    height: 264px;
+    color: white;
+    padding: 28px;
+    margin-bottom: 40px;
+}
+
+.landing-page-btn {
+    font-size: 14px;
+    font-weight: bolder;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    width: max-content;
+    padding-inline: 20px;
+    margin-block: 14px;
+}

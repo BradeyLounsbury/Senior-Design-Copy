@@ -1,0 +1,110 @@
+.desktop-styling {
+    background-color: white;
+    text-align: center;
+}
+
+.desktop-styling .rbc-calendar {
+    max-width: 100%;
+    height: 500px;
+    margin: 50px;
+}
+
+.desktop-styling .rbc-toolbar-label {
+    font-weight: bold;
+}
+
+.desktop-styling .rbc-event {
+    background-color: #074F57;
+}
+
+.desktop-styling .rbc-month-view .rbc-event-content {
+    text-align: center;
+}
+
+.desktop-styling .rbc-date-cell button {
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.mobile-styling {
+    background-color: white;
+    text-align: center;
+}
+
+.mobile-styling .rbc-toolbar {
+    display: block;
+}
+
+.mobile-styling .rbc-toolbar span {
+    display: block;
+}
+
+.mobile-styling .rbc-toolbar-label {
+    font-weight: bold;
+    margin: 4px 0px;
+}
+
+.mobile-styling .rbc-header {
+    font-size: 100%;
+}
+
+.mobile-styling .rbc-month-view {
+    border-top: none;
+}
+
+.mobile-styling .rbc-month-header .rbc-header {
+    text-overflow: unset;
+    white-space: pre-wrap;
+}
+
+.mobile-styling .rbc-month-header .rbc-header span {
+    display: block;
+    width: 30%;
+    height: 20px;
+    overflow-wrap: break-word;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.mobile-styling .rbc-calendar{
+    max-width: 100%;
+    height: 500px;
+    margin: 30px 0px;
+}
+
+.mobile-styling .rbc-month-view .rbc-event-content {
+    color: #074F57;
+}
+
+.mobile-styling .rbc-month-view .rbc-event {
+    background-color: #074F57;
+}
+
+.mobile-styling .rbc-month-view .rbc-date-cell {
+    text-align: center;
+}
+
+.mobile-styling .rbc-month-view .rbc-date-cell {
+    padding-right: 0px;
+}
+
+.mobile-styling .rbc-month-view .rbc-date-cell button {
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.mobile-styling .rbc-timeslot-group {
+    min-height: 60px;
+}
+
+.mobile-styling .rbc-time-view .rbc-event {
+    background-color: #074F57;
+}
+
+.mobile-styling .rbc-time-view .rbc-event-content {
+    color: white;
+}
+
+.mobile-styling .rbc-time-view .rbc-events-container .rbc-event-label {
+    display: none;
+}

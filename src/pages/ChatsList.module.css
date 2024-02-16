@@ -1,0 +1,51 @@
+.profilePicture {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.nameAndPicture {
+    display: flex;
+    align-items: center;
+}
+
+.chatsListEntry {
+    color: #074F57;
+    border-bottom: 2px solid #074F57;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.username {
+    font-weight: 600;
+    font-size: 22px
+}
+
+.unread {
+    background-color: #074F57;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    margin-inline: 40px;
+}
+
+.pageWrap {
+    color: #074F57;
+    font-size: 28px;
+}
+
+.no-messages {
+    font-size: 40px;
+    font-weight: 600;
+    color:#074F57;
+    height: 250px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }

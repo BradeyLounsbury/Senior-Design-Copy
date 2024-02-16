@@ -1,0 +1,264 @@
+.tileWrap {
+    border-radius: 20px;
+    width: 300px;
+    min-height: 120px;
+    position: relative;
+    color: #27524D;
+}
+
+.tileWrap:hover {
+    cursor: pointer;
+}
+
+.tileImg {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 300px;
+    height: 65px;
+}
+
+.tileImg:hover {
+    cursor: pointer;
+}
+
+.tileTextBlock {
+    background-color: #EBF3F3;
+    background-position: center bottom;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    width: 300px;
+    height: 55px;
+}
+
+.tileTextBlock:hover {
+    cursor: pointer;
+}
+
+.tileTitle {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 3px;
+    width: 180px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.tileUser {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+.tilePeople {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 22px;
+    position: absolute;
+    bottom: 11px;
+    padding-left: 205px;
+}
+
+.tileIcon {
+    position: absolute;
+    bottom: 14px;
+    padding-left: 255px;
+    font-size: 28px;
+}
+
+.openWrap {
+    border-radius: 20px;
+    width: 300px;
+    min-height: 300px;
+    position: relative;
+}
+
+.openInnerWrap {
+    position: relative;
+    background-color: #f5f5f5;
+    height: 100%;
+    margin-bottom: 0px;
+    width: 300px;
+}
+
+.hideWrap {
+    margin: auto;
+}
+
+.hideWrap:hover {
+    cursor: pointer;
+}
+
+.caret {
+    font-size: 22px;
+    position: relative;
+    padding-left: 258px;
+    padding-top: 2px;
+}
+
+.caretText {
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-decoration: underline;
+    position: absolute;
+    top: 0;
+    right: 45px;
+}
+
+span {
+    vertical-align: center;
+}
+
+.locateWrap {
+    position: relative;
+    padding-top: 5px;
+    margin-top: 4px;
+}
+
+.locateIcon {
+    padding-left: 4px;
+    font-size: 19px;
+}
+
+.locateTitle {
+    font-size: 17px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+.locateInfo {
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #00332d;
+    padding-left: 28px;
+    padding-right: 26px;
+    padding-top: 5px;
+    white-space: pre-line;
+}
+
+.dateWrap {
+    position: relative;
+    padding-top: 5px;
+    margin-top: 4px;
+}
+
+.dateIcon {
+    padding-left: 4px;
+    font-size: 19px;
+}
+
+.dateTitle {
+    font-size: 17px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+.dateInfo {
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #00332d;
+    padding-left: 28px;
+    padding-right: 26px;
+    padding-top: 5px;
+    white-space: pre-line;
+}
+
+.descWrap {
+    position: relative;
+    padding-top: 5px;
+    margin-top: 2px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.descIcon {
+    padding-left: 4px;
+    font-size: 19px;
+}
+
+.descTitle {
+    font-size: 17px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+.descInfo {
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #00332d;
+    padding-left: 28px;
+    padding-right: 26px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.buttons {
+    display: inline-flex;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.moreInfo {
+    height: 40px;
+    width: 130px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: white;
+    background-color: #818181;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 22px;
+}
+
+.moreInfo:hover {
+    cursor: pointer;
+}
+
+.join, .leave, .edit {
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: white;
+    background-color: #27524D;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 25px;
+}
+
+.leave {
+    background-color: #FF5353;
+}
+
+.edit {
+    background-color: #0096FF;
+}
+
+.join:hover, .leave:hover, .edit:hover {
+    cursor: pointer;
+}
+
+.blueColor {
+    color:#073A57
+}
+
+.blueBackgroundColor {
+    background-color: #ccdde6;
+}

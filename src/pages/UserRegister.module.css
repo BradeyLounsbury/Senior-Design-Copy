@@ -1,0 +1,273 @@
+.page-wrap {
+    color: #074F57;
+}
+
+.btn-top {
+    height: 32px;
+    width: 100%;
+    margin-top: 72px;
+}
+
+.back-btn {
+    height: 32px;
+    width: 32px;
+    color: #074F57;
+    font-size: 32px;
+    margin: auto;
+    margin-left: 44px;
+}
+
+.center-body {
+    margin: 68px auto;
+    width: 200px;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.body-title {
+    text-align: center;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 75px;
+}
+
+.body-entry-box {
+    margin-top: 18px;
+}
+.input-password{
+    display: inline-flex;
+  }
+.password-input{
+    display: inline-flex; 
+    font-size: 17px;
+    width: 108%;
+    height: 24px;
+    padding: 0;
+    border-width: 0px;
+    border-bottom-width: 2px;
+    border-color: #074F57;
+    background-color: transparent;
+    color: #074F57;
+    text-indent: 10px;
+}
+.modal-input-eyeOutline{
+    padding-top: 2px;
+}
+
+.top-box {
+    margin-top: 0px;
+}
+
+.entry-label {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-flex;
+}
+
+.input-box {
+    height: 24px;
+    width: 100%;
+    font-size: 17px;
+    padding: 0;
+    border-width: 0px;
+    border-bottom-width: 2px;
+    border-color: #074F57;
+    background-color: transparent;
+    color: #074F57;
+    text-indent: 10px;
+}
+
+.input-box:focus {
+    outline: none;
+}
+
+.btn-sign-up {
+    border-width: 0;
+    background-color: #074F57;
+    color: white;
+    padding: 14px 60px;
+    height: 52px;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 26px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btn-sign-up:hover {
+    background-color: #073b41;
+    cursor: pointer;
+}
+
+.body-links {
+    font-size: 13px;
+    padding-left: 15px;
+}
+a {
+    margin-left: 4px;
+    color: #074F57;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.field-warning {
+    color: black;
+    margin-left: 10px;
+}
+
+.field-warning::before {
+    color: red;
+    content: '*';
+}
+
+.field-warning-hidden {
+    display: none;
+}
+
+.modal-input-frame {
+  margin-top: 10px;
+}
+
+.modal-input-title {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  color: #27524D;
+}
+
+.modal-input {
+  font-family: 'Poppins';
+  font-size: 14px;
+  color: black;
+  height: 34px;
+  width: 100%;
+  padding: 0;
+  text-indent: 5px;
+  font-weight: 700;
+  border: 2px solid #27524D;
+  background-color: transparent;
+  border-radius: 8px;
+}
+.modal-input-bio {
+  font-family: 'Poppins';
+  font-size: 14px;
+  color: black;
+  height: 180px;
+  width: 100%;
+  outline: none;
+  padding: 0;
+  text-indent: 5px;
+  font-weight: 700;
+  border: 2px solid #27524D;
+  background-color: transparent;
+  border-radius: 8px;
+}
+.modal-container {
+  display: flex;
+}
+.modal-small-input {
+  font-family: 'Poppins';
+  font-size: 14px;
+  color: black;
+  height: 34px;
+  width: 33%;
+  flex-grow: 1;
+  padding-left: 5px;
+  text-indent: 5px;
+  font-weight: 700;
+  border: 2px solid #27524D;
+  background-color: transparent;
+  border-radius: 8px;
+}
+.error-txt {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #FF5353;
+}
+  
+.eula-wrap {
+    overflow: scroll;
+    height: 256px;
+    border: #27524D 2px solid;
+    border-radius: 8px;
+    padding: 0px 10px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.eula-checkbox {
+    display: flex;
+}
+
+.eula-checkbox input[id="eula"]{
+    width: 24px;
+    height: 24px;
+}
+
+.eula-checkbox label {
+    margin-left: 10px;
+    color: black;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.code-wrap {
+    margin-top: 10px;
+}
+
+.code-title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    color: #27524D;
+}
+
+.code-input {
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: black;
+    height: 34px;
+    width: 100%;
+    padding: 0;
+    text-indent: 5px;
+    font-weight: 700;
+    border: 2px solid #27524D;
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+.code-link {
+    text-decoration: underline;
+}
+
+.password-check-container {
+    margin-top: 5px;
+    font-size: 11px;
+    
+}
+.incorrect-check {
+    color: #FF5353;
+}

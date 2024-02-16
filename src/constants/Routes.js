@@ -1,0 +1,31 @@
+
+const routes = {
+    about: "/about",
+    contact: "/contact",
+    landing: "/",
+    register: "/register",
+    login: "/login",
+    faq: "/faq",
+    dashboard: "/dashboard",
+    events: "/events",
+    groups: "/groups",
+    gettingStarted: "/gettingstarted",
+    calendar: "/calendar",
+    findEvents: "/findevents",
+    messages: "/messages",
+    chat: "/messages/:user",
+    profile: "/profile",
+    createEvent: "/create/event",
+    createGroup: "/create/group",
+    user: "/user/:userID",
+    tos: "/tos",
+    eventInfo: "/event/:eventID",
+    groupInfo: "/group/:groupID",
+    moreInfo: "/moreinfo",
+    TOS: "/tos",
+    privacyPolicy: "/privacypolicy",
+    notFound: "/404",
+    search: "/search",
+}
+
+export default routes;

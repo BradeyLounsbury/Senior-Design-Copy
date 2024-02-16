@@ -1,0 +1,12 @@
+schema {
+  query: Query
+  mutation: Mutation
+}
+
+type Mutation {
+  subscribe(subscription: String, topic: String): String @aws_cognito_user_pools
+}
+
+type Query {
+  test: String
+}

@@ -1,0 +1,60 @@
+.page-wrap {
+  color: #074F57;
+}
+
+.center-body-about {
+    margin: 68px auto;
+    width: 95%;
+    font-family: 'Poppins';
+    align-items: center;
+    text-align: center;
+}
+
+.body-title-about {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.mission-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.dev-title {
+    font-weight: bolder;
+    font-size: 54px;
+    text-align: left;
+    margin-top: 70px;
+}
+
+.dev-img {
+    align-items: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 75%;
+}
+
+.dev-job {
+    font-weight: bolder;
+    font-size: 26px;
+    text-align: left;
+}
+
+.dev-info {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: left;
+}
+
+.dev-github {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: left;
+    font-style: italic;
+}

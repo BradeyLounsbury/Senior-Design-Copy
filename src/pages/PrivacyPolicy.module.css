@@ -1,0 +1,17 @@
+.privacy-wrap {
+    margin: 0px 40px;
+}
+
+.back-btn {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    background: #074F57;
+    border-radius: 8px;
+    max-width: 230px;
+    padding: 10px 4px;
+    cursor: pointer;
+    text-align: center;
+    margin: 30px auto;
+}

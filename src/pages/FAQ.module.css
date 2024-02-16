@@ -1,0 +1,64 @@
+.main-faq {
+    color: black;
+    text-align: center;
+    background-color: #EBF3F3;
+    padding-top: 20px;
+    padding-bottom: 7px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+  }
+
+  .q1 {
+    text-align: center;
+    font-size: 21px;
+    color: #074F57;
+    font-weight: 1000;
+    line-height: 30px;
+    
+  }
+  .a1 {
+    
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 2px;
+    padding-right: 2px;
+    line-height: 25px;
+  }
+  .col-faq{
+    text-align: left;
+    margin-left: 5%;
+    margin-right:  5%;
+    text-indent: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    
+    
+  }
+  .section-faq{
+    line-height: 35px;
+    color: black;
+    font-size: 32px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+  }
+  
+  .row1-faq{
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 5px;
+    line-height: 10px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+  }

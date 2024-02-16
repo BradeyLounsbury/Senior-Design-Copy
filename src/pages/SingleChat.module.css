@@ -1,0 +1,97 @@
+.profilePicture {
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 8px;
+}
+
+.nameAndPicture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-block: groove;
+    font-family: 'Poppins';
+    color: #074F57;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border-top: 3px solid #074F57;
+    border-bottom: 3px solid #074F57;
+}
+
+.selfMessageBubble {
+    color: white;
+    border-radius: 15px;
+    padding: 14px;
+    max-width: 80vw;
+    width: max-content;
+    background-color: #074F57;
+    margin-right: 10px;
+    margin-left: auto;
+    margin-block: 4px;
+    word-wrap: break-word;
+    font-family: 'Poppins';
+    white-space: pre-wrap;
+}
+
+.otherMessageBubble {
+    color: black;
+    border-radius: 15px;
+    padding: 14px;
+    max-width: 80vw;
+    width: max-content;
+    background-color: #cdcdcd;
+    margin-left: 10px;
+    margin-block: 4px;
+    word-wrap: break-word;
+    font-family: 'Poppins';
+    white-space: pre-wrap;
+}
+
+.messagesTile {
+    height: 70vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.typeAndSend {
+    display: flex;
+    align-items: center;
+    /* border-top: 3px solid #074F57; */
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 7px;
+}
+
+.textEntry {
+    font-size: 16px;
+    margin-right: 10px;
+    width: 100%;
+    height: 28px;
+    max-height: 50px;
+    border-radius: 8px;
+    border: 1px solid #cdcdcd;
+    resize: none;
+    font-family: 'Poppins';
+    outline: none;
+}
+
+.sendBtn {
+    background-color: #074F57;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 13px;
+    border-radius: 25px;
+    border: #074F57;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+.sendBtn:active {
+    background-color:#0da4b5
+}

@@ -1,0 +1,106 @@
+.eventInfoTitles {
+    margin: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #074F57;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.eventRender{
+    width: 100%;;
+    max-width: 400px;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+
+.eventInfo {
+    margin-left: 30px;
+    font-size: 17px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    color: #00332d;
+    padding-top: 0px;
+    margin-top: 7px;
+}
+.timeWrap{
+    position: relative;
+    padding-top: 5px;
+    margin-top: 4px;
+}
+.timeText{
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #27524D;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+.clockIcon{
+    padding-left: 4px;
+    font-size: 22px;
+    color: #27524D;
+}
+.partIcon{
+    padding-left: 10px;
+}
+
+.eventImg {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 15vh;
+}
+
+.nameAndCount {
+    background-color: #EBF3F3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.count {
+    padding: 15px 15px 15px 0;
+    white-space: nowrap;
+    margin-block:'auto';
+    font-weight: bold;
+}
+
+.joinBtn {
+    margin-top: 5px;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: white;
+    background-color: #27524D;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 25px;
+}
+.moreInfoBtn {
+    margin-top: 5px;
+    height: 40px;
+    width: 130px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: white;
+    background-color: #818181;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 22px;
+}
+.tile-wrap {
+    width: fit-content;
+    margin: 0px auto;
+
+    
+  }
+  

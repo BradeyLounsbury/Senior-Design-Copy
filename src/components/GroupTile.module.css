@@ -1,0 +1,193 @@
+.tileWrap {
+    border-radius: 10px;
+    width: 300px;
+    /* min-height: 120px; */
+    min-width: 320px;
+    position: relative;
+    padding-left: 5%;
+    font-family: 'Poppins';
+    background-color: #D0E4E5;
+}
+
+.tileHeader {
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tileHeader:hover {
+    cursor: pointer;
+}
+
+.groupIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: auto;
+}
+
+
+span {
+    vertical-align: center;
+}
+
+.groupName {
+    font-weight: 700;
+    font-size: 18px;
+    color: #27524D;
+    width: 200px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.groupMemIcon {
+    font-size: 21px;
+    color: #27524D;
+    margin-left: auto;
+}
+
+.groupMems {
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 1px;
+    color: #27524D;
+    margin-right: 5%;
+}
+
+.openInnerWrap {
+    width: 100%;
+    font-family: 'Poppins';
+}
+
+.aboutTitle {
+    font-weight: 700;
+    font-size: 18px;
+    color: #27524D;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.aboutInfo {
+    font-weight: 500;
+    font-size: 15px;
+    color: #27524D;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.leaderTitle {
+    font-weight: 700;
+    font-size: 18px;
+    color: #27524D;
+    margin-top: 7px;
+    margin-bottom: 2px;
+}
+
+.leaderInfo {
+    font-weight: 500;
+    font-size: 15px;
+    color: #27524D;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.activitiesTitle {
+    font-weight: 700;
+    font-size: 18px;
+    color: #27524D;
+    margin-top: 7px;
+}
+
+.activitiesInfo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.activityTag {
+    background-color: #cde69c;
+    border-radius: 2px;
+    border: 1px solid #a5d24a;
+    color: #638421;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    padding: 4px 8px;
+}
+
+.activitiesNone {
+    font-weight: 500;
+    font-size: 15px;
+    color: #27524D;
+    margin-top: -3px;
+    margin-left: 7px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+.buttons {
+    width: 120%;
+    margin-top: 5px;
+    padding-bottom: 50px;
+}
+
+.moreInfo {
+    height: 40px;
+    width: 130px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: white;
+    background-color: #818181;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 7px;
+    position: absolute;
+    left: 0px;
+
+}
+
+.moreInfo:hover {
+    cursor: pointer;
+}
+
+.join, .leave, .edit {
+    height: 40px;
+    min-width: 100px;
+    width: auto;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: white;
+    background-color: #27524D;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 25px;
+    margin-bottom: 7px;
+    position: absolute;
+    right: 22px;
+    padding-inline: 10px;
+}
+
+.leave {
+    background-color: #FF5353;
+}
+
+.edit {
+    background-color: #0096FF;
+}
+
+.join:hover, .leave:hover, .edit:hover {
+    cursor: pointer;
+}
